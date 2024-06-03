@@ -1,0 +1,68 @@
+.container {
+    text-align: center;
+}
+.title {
+    margin-top: 50px;
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: font-size 0.5s;
+}
+.title:hover {
+    cursor: pointer;
+    font-size: 5rem;
+    transition: font-size 0.5s;
+}
+.button {
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #BA4A00;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    transition: background-color 0.5s;
+}
+.button:hover {
+    background-color: #DC7633;
+    transition: background-color 0.5s;
+}
+.boxes {
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #EDBB99;
+    border: 4px solid #BA4A00;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.board{
+    height: 600px;
+    width: 564px;
+    display: flex;
+    margin: auto;
+}
+.boxes img{
+    margin: 50px 50px;
+}
+.title img{
+    height: 50px;
+}
+.text {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    transition: font-size 0.5s;
+}
+.text:hover {
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: font-size 0.5s;
+}
